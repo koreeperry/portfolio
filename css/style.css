@@ -22,8 +22,30 @@ header image{
     margin: 0 auto;
 }
 
+h2.welcome-text {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 5em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: normal;
+}
+
 .subtitle {
     font-size: 1.5em;
     text-align: center;
     margin-top: 10px;
+}
+
+body {
+    font-family:'Times New Roman', Times, sans-serif;
+    font-size: 17px;
+    line-height: 1.25;
+    background-color: #D2B48C;
 }
