@@ -22,14 +22,6 @@ header image{
     margin: 0 auto;
 }
 
-h2.welcome-text {
-    font-weight: bold;
-    font-size: 1.5em;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
 h1 {
     font-size: 5em;
     margin-bottom: 20px;
@@ -48,4 +40,10 @@ body {
     font-size: 17px;
     line-height: 1.25;
     background-color: #D2B48C;
+    text-align: center;
+}
+
+h4 {
+    margin-left: auto;
+    text-align: left;
 }
