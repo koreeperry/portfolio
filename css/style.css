@@ -8,3 +8,22 @@ header image{
     margin-right: auto;
 
 }
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.center-image {
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 10px;
+}
