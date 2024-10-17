@@ -22,6 +22,16 @@ header image{
     margin: 0 auto;
 }
 
+a {
+    color: rgb(104, 35, 35); /* Change link color to white */
+    text-decoration: none; /* Optional: remove underline */
+}
+
+a:hover {
+    color: rgb(195, 135, 75); /* Optional: change color on hover */
+}
+
+
 h1 {
     font-size: 5em;
     margin-bottom: 20px;
@@ -80,11 +90,21 @@ h1 {
     margin-left: 20px;
 }
 
-.image-container {
-    display: flex; /* Aligns images in a row */
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+
 }
 
-.image-container img {
-    width: 300px; /* Adjust the size */
-    margin-right: 10px; /* Space between images */
+.image-gallery img {
+    width: 300px; 
+    height: auto; 
+}
+
+.centered-text {
+    text-align: center; /* Center the text */
+    margin-bottom: 20px; /* Optional: space below the text */
 }
