@@ -79,3 +79,12 @@ h1 {
     text-align: left;
     margin-left: 20px;
 }
+
+.image-container {
+    display: flex; /* Aligns images in a row */
+}
+
+.image-container img {
+    width: 300px; /* Adjust the size */
+    margin-right: 10px; /* Space between images */
+}
